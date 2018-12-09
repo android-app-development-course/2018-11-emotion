@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">emotion</string>
+
+    <string name="first">第一</string>>
+    <string name="second">第二</string>>
+    <string name="third">第三</string>>
+
+
+    <string name="start">开始面对</string>
+    <string name="about">关于</string>
+    <string name="exit">离开</string>
+
+    <string name="information">android移动开发_  koki _ </string>
+    <string name="information1">2018.10---></string>
+    <string name="information2">HYGGE. and sai.</string>>
+
+    <string name="aberratio">迷乱</string>
+    <string name="hello">你好</string>
+    <string name="fine">我还好</string>
+    <string name="no_a_big_deal">没什么大不了</string>
+    <string name="believe_yourself">相信你自己</string>
+
+    <string name="be_happy">开心一点</string>
+    <string name="dont_be_lazy">不要这么懒</string>
+    <string name="cant">不能这样子</string>
+
+
 </resources>
