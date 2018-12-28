@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_gradient"
+    tools:context=".ThirdActivity">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="60dp"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/back" />
+
+
+    <TextView
+        android:id="@+id/tvcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="8dp"
+        android:text="积极治疗：身边的抑郁症状的人，作出出来寻常觉得夸张的反应和表现，尝试站在对方的角度去思考，去理解其表现出来的反应，理解其困惑痛苦之处。不应该只站在自己的角度去看待对方，对对方的夸张行为一味否定。抑郁症治疗是一个系统工程，包括心理治疗、生活方式的改变，以及社会支持体系的发现和提供。在治疗过程中，有时会偏重于药物治疗、物理治疗，忽略了心理治疗及心理康复，因为治疗的最终目的是改善患者社会适应能力。"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tccontent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.53"
+        android:text="给予支持：一些抑郁症状困扰的人，对自我价值评价过低，害怕给别人带来麻烦，会隐藏自己的真实一面。向他表达真诚，尝试获取信任。"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tccontent1_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.8"
+        android:text="消除误解 ： 抗抑郁药在改善抑郁情绪的同时，也可以改善认知功能。在抑郁发作期有 90% 左右的人有注意力、记忆力下降、工作效能差等表现，在抑郁缓解期这个比例下降到 40% 左右。因此，抗抑郁治疗不会让人变傻，而是在改善抑郁的同时，帮助恢复认知能力。当然认知的恢复仅仅依靠药物治疗还不够，还需要结合一些其他治疗手段，如运动、冥想、重复经颅磁刺激（rTMS）等，这样才能使抑郁症患者得到全面的康复。"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/koki_happy" />
+
+
+</android.support.constraint.ConstraintLayout>

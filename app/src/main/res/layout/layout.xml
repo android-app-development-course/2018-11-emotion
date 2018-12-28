@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_gradient">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="60dp"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="抑郁情绪与抑郁症 ：抑郁情绪，是一个人的正常情绪。人有七情六欲——「喜怒哀乐悲恐惊」，抑郁情绪是在我们遇到压力、挫折、悲伤时出现的负性情绪，和环境相关、程度适宜、时间较短，并且与机体的个性有关。比如说考试没考好，或跟女朋友（男朋友）吵架了，就会出现短暂的抑郁情绪。这些抑郁情绪都是情境性的，随着事件过去，情绪就会平复。抑郁状态，即持续的抑郁情绪，可能会在一定的时间内出现不开心、茶饭不思，甚至影响到日常生活和工作学习。抑郁状态分为两种情况，一种是不开心但生活基本不受影响，持续时间比较长；另一种如失恋的情况，短时间内很多日常事务的执行会受到影响。但通常来说抑郁状态对于社会功能的影响不超过两个星期。抑郁情绪、抑郁状态都不能称之为抑郁症。"
+                />
+
+            <TextView
+                android:id="@+id/tvcontent3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="抑郁症状与抑郁症：抑郁症状的概念是从心理学或精神医学的角度来讲的。抑郁症状包括抑郁情绪、兴趣下降、快感缺失，以及精力下降、躯体疼痛、焦虑、认知功能损害、记忆力下降、思维迟缓、自杀意念等，这些统称为抑郁综合征。抑郁症是一种精神疾病，而能够出现抑郁症状的疾病有很多，比如双相情感障碍、甲状腺功能异常等内分泌疾病、帕金森综合症、神经退行性疾病如老年痴呆等。另外，一些药物也有可能引起抑郁情绪或症状，如长期服用利血平、复方降压片等降压药物。"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

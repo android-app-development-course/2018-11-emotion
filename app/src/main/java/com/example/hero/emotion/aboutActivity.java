@@ -12,7 +12,8 @@ public class aboutActivity  extends AppCompatActivity
 
     private Button btnBack;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about);
         btnBack=findViewById(R.id.btn_back);
@@ -22,8 +23,8 @@ public class aboutActivity  extends AppCompatActivity
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                setResult(1,intenta);
                 finish();
-                startActivity(intenta);
             }
         });
     }

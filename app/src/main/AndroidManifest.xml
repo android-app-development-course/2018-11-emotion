@@ -16,19 +16,21 @@
             android:theme="@style/AppTheme.NoBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Main2Activity"
             android:theme="@style/AppTheme.NoBar" />
-        <activity android:name=".Main3Activity" android:theme="@style/AppTheme.NoBar">
+        <activity android:name=".aboutActivity" android:theme="@style/AppTheme.NoBar"/>
+        <activity android:name=".SecondActivity" android:theme="@style/AppTheme.NoBar"/>
+        <activity android:name=".ThirdActivity" android:theme="@style/AppTheme.NoBar"/>
+        <activity android:name=".what" android:theme="@style/AppTheme.NoBar"/>
+        <activity android:name=".treat" android:theme="@style/AppTheme.NoBar"/>
 
-        </activity>
-        <activity android:name=".aboutActivity" android:theme="@style/AppTheme.NoBar">
 
-        </activity>
+
     </application>
 
 </manifest>

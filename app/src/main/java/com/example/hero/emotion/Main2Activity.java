@@ -11,25 +11,47 @@ import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity {
 
-    private TextView tv;
-    private TextView tv1;
+    private TextView tvR;
+    private TextView tvF;
+    private TextView tvS;
+
     private int lastX;
     private int lastY;
     @SuppressLint("ClickableViewAccessibility")
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        tv=findViewById(R.id.textView4);
-        tv1=findViewById(R.id.textView3);
-        final Intent intent=new Intent(this,Main3Activity.class);
-        tv.setOnClickListener(new View.OnClickListener() {
+
+        tvF=findViewById(R.id.tv_Face);
+        tvR=findViewById(R.id.tv_Realize);
+        tvS=findViewById(R.id.tv_Solve);
+
+        final Intent intent=new Intent(this,what.class);
+        final Intent intent1=new Intent(this,SecondActivity.class);
+        final Intent intent2=new Intent(this,ThirdActivity.class);
+
+        tvR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(intent);
             }
         });
-        tv1.setOnTouchListener(new View.OnTouchListener() {
+        tvF.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(intent1);
+            }
+        });
+        tvS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(intent2);
+            }
+        });
+        /*
+        tvR.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 int action=motionEvent.getAction();
@@ -55,5 +77,7 @@ public class Main2Activity extends AppCompatActivity {
                 return false;
             }
         });
+        */
+
     }
 }
